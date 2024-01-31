@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { ThemeProvider } from 'styled-components'
 
 import Projetos from './containers/Projetos'
-import Sidebar from './containers/Sidebar'
+import Sidebar from './containers/SideBar'
 import Sobre from './containers/Sobre'
 import EstiloGlobal, { Container } from './styles'
 import temaLight from './themes/light'
