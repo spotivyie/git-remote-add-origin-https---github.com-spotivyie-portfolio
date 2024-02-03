@@ -3,12 +3,20 @@ import Titulo from '../Titulo'
 
 import { Card, LinkBotao } from './styles'
 
-const Projeto = () => {
+type Props = {
+  title: string
+  description: string
+  github: string
+  url: string
+}
+
+const Projeto = ({ title, description, github, url }: Props) => {
   return (
     <Card>
-      <Titulo>Projeto Lista de tarefas</Titulo>
-      <Paragrafo tipo="secundario">Lista de tarefas feita com VueJS</Paragrafo>
-      <LinkBotao>Visualizar</LinkBotao>
+      <Titulo>{title}</Titulo>
+      <Paragrafo tipo="secundario">{description}</Paragrafo>
+      <LinkBotao href={github}>Github</LinkBotao>
+      <LinkBotao href={url}>Projeto</LinkBotao>
     </Card>
   )
 }
