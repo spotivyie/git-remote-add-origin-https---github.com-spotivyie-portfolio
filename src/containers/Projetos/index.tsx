@@ -47,6 +47,20 @@ const projetos: Menu[] = [
     github: 'https://github.com/spotivyie/agenda_de_contatos',
     url: 'https://agenda-beige-rho.vercel.app',
   },
+  {
+    id: 7,
+    title: 'Evento fictício',
+    description: 'Lading page para um evento com timer utilizando js',
+    github: 'https://github.com/spotivyie/evento_ficticio',
+    url: 'https://evento-ficticio-psi.vercel.app/#',
+  },
+  {
+    id: 8,
+    title: 'Calculadora',
+    description: 'Projeto de uma calculadora com VueJS',
+    github: 'https://github.com/spotivyie/calculadora',
+    url: 'https://calculadora-hazel-nine.vercel.app',
+  },
 ]
 
 const Projetos = () => (
