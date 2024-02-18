@@ -17,6 +17,7 @@ const ProjetoList = ({ menu }: Props) => (
           <Projeto
             key={menus.id}
             title={menus.title}
+            image={menus.image}
             description={menus.description}
             github={menus.github}
             url={menus.url}

@@ -8,13 +8,15 @@ type Props = {
   description: string
   github: string
   url: string
+  image: string
 }
 
-const Projeto = ({ title, description, github, url }: Props) => {
+const Projeto = ({ title, description, github, url, image }: Props) => {
   return (
     <Card>
       <Titulo>{title}</Titulo>
       <Paragrafo tipo="secundario">{description}</Paragrafo>
+      <img src={image} />
       <LinkBotao href={github}>Github</LinkBotao>
       <LinkBotao href={url}>Projeto</LinkBotao>
     </Card>
